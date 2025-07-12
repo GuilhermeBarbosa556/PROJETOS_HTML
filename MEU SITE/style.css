@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font: 400 15px/20px Poppins,Arial,sans-serif
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#topo{
+    margin-top: 100px;
+    background-color: #ff6a28;
+    color: white;
+    padding: 50px;
+}
+#Utensílios{
+    background-color: #f3f3f3;
+    border: 1px solid #dedede;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 12px 20px 8px;
+}
+#Ingredientes{
+    background-color: #f3f3f3;
+    border: 1px solid #dedede;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 12px 20px 8px;
+}
+h1{
+    font-size: 50px;
+}
+
+li{
+    list-style-type: none;
+}
+.grid{
+    padding: 20px;
+}
+
+.item {
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding: 20px 0 20px 50px;
+    position: relative;
+}
+
+.position {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+    color: #ff6a28;
+    font-weight: 700;
+    left: 0;
+    margin-right: 15px;
+    padding: 8px 11px 2px;
+    position: absolute;
+    top: 20px;
+}
+
+.links {
+    color: #ff6a28;
+    text-decoration: none;
+}
+
+.preparo {
+    background-color: #f3f3f3;
+    border: 1px solid #dedede;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 12px 20px 8px;
+}
+
+.button-primary {
+    background-color: #ff6a28;
+    border: 0;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 22px 7px;
+    transition: background-color .2s ease-in-out;
+    text-decoration: none;
+}
+
+.button{
+    text-align: center;
+    padding: 20px;
+}
+
+.input-text{
+    padding: 50px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #58af9b;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formulario {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+input{
+    padding: 5px;
+}
+
+.button{
+    text-align: center;
+}
+
+.btn {
+    background-color: #58af9b;
+    border: 1px solid #58af9b;
+    color: white;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 10px 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.caixas{
+    background-color: #ecf0f1;
+    margin-top: 10px;
+}
+
+.caixa{
+    border: none;
+    background-color: #ecf0f1;
+    height: 45px;
+    width: 300px;
+}
+
+.icon-modify{
+    width: 20px;
+    margin-left: 20px;
+    color: #7f8c8d;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #58af9b;
+}
+
+.social-media {
+    margin: 1rem 0;
+}
+
+.second-icon{
+    color: #95a5a6;
+    text-align: center;
+    width: 35px;
+}
+
+.link-social-media{
+    border: 1px solid #bdc3c7;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #95a5a6;
+}
